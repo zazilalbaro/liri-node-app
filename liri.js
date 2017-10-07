@@ -47,15 +47,18 @@ else if (option == 'movie-this') {
 	    console.log("Actors: " + JSON.parse(body).Actors);
 	  }
 	  else {
-	  	console.log("Oops, couldn't find that movie :(")
-	  }
+	  	console.log("Oops, couldn't find that movie :(");
+	  };
 	});
 }
 else if (option == 'do-what-it-says') {
 	// use the fs node package to take the text inside the random.txt and the command indicated in the file
 	// add more commands and text
 }
-
-// ,"Ratings":[{"Source":"Internet Movie Database","Value":"7.9/10"},
-// {"Source":"Rotten Tomatoes","Value":"64%"},
-// {"Source":"Metacritic","Value":"63/100"}],"
+else {
+	console.log("\nPlease enter one of the following:");
+	console.log("my-tweets");
+	console.log("spotify-this-song <enter song title>");
+	console.log("movie-this <enter movie title>");
+	console.log("do-what-it-says");
+};
