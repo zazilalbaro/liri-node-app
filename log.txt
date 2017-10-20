@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 One more for good measure
 Tweeted on: Tue Oct 03 18:01:03 +0000 2017
@@ -449,3 +450,6 @@ Country: USA
 Language: English
 Plot Summary: A manipulative woman and a roguish man conduct a turbulent romance during the American Civil War and Reconstruction periods.
 Actors: Thomas Mitchell, Barbara O'Neil, Vivien Leigh, Evelyn Keyes
+=======
+
+>>>>>>> 10642bf0db92571546a61db62617176621b12fff
